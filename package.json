@@ -1,0 +1,49 @@
+{
+  "name": "@altipla/feature-js",
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "obuild",
+    "lint": "tsc --noEmit && oxlint",
+    "fix": "oxlint --fix",
+    "test": "pnpm run lint",
+    "prepublishOnly": "pnpm run build"
+  },
+  "description": "Feature flags client for our applications.",
+  "author": "Altipla Consulting",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/altipla-consulting/feature-js"
+  },
+  "homepage": "https://github.com/altipla-consulting/feature-js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@buf/altipla_feature-flags.bufbuild_es": "2.13.0-20260803093603-e948497a0a08.1",
+    "@bufbuild/protobuf": "^2.13.0",
+    "@connectrpc/connect": "^2.1.2",
+    "@connectrpc/connect-node": "^2.1.2"
+  },
+  "devDependencies": {
+    "@altipla/oxlint-config": "^0.1.6",
+    "@types/node": "^26.1.2",
+    "@vue/tsconfig": "^0.9.1",
+    "obuild": "^0.4.37",
+    "oxlint": "^1.57.0",
+    "oxlint-tsgolint": "^0.23.0",
+    "prettier": "^3.8.1",
+    "typescript": "^6.0.3"
+  }
+}
