@@ -14,9 +14,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/altipla-consulting/feature-js"
+    "url": "https://github.com/altipla-consulting/features-js"
   },
-  "homepage": "https://github.com/altipla-consulting/feature-js",
+  "homepage": "https://github.com/altipla-consulting/features-js",
   "files": [
     "dist",
     "src"
