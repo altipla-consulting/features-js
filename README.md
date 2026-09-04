@@ -11,7 +11,7 @@ Before installing the package, create an `.npmrc` file in the project root with 
 ```
 
 ```shell
-pnpm add @altipla/feature-js
+pnpm add @altipla/feature-flags
 ```
 
 ## Usage

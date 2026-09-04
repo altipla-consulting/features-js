@@ -1,5 +1,5 @@
 {
-  "name": "@altipla/feature-js",
+  "name": "@altipla/feature-flags",
   "type": "module",
   "version": "0.0.0",
   "scripts": {

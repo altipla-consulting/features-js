@@ -4,13 +4,13 @@ type Config = {
 
 let config: Config | undefined
 
-export function configureFlag(options: Config) {
+export function configureFlags(options: Config) {
   config = options
 }
 
 export function getProject() {
   if (!config) {
-    throw new Error('not configured')
+    throw new Error('not configured, call configureFlags first')
   }
   return config.project
 }
