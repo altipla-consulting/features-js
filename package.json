@@ -31,8 +31,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@buf/altipla_feature-flags.bufbuild_es": "2.13.0-20260803093603-e948497a0a08.1",
-    "@bufbuild/protobuf": "^2.13.0",
+    "@buf/altipla_feature-flags.bufbuild_es": "2.14.1-20260803093603-e948497a0a08.3",
+    "@bufbuild/protobuf": "^2.14.1",
     "@connectrpc/connect": "^2.1.2",
     "@connectrpc/connect-node": "^2.1.2"
   },
