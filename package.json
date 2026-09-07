@@ -38,12 +38,12 @@
   },
   "devDependencies": {
     "@altipla/oxlint-config": "^0.1.6",
-    "@types/node": "^26.1.2",
+    "@types/node": "^26.4.1",
     "@vue/tsconfig": "^0.9.1",
-    "obuild": "^0.4.37",
-    "oxlint": "^1.57.0",
-    "oxlint-tsgolint": "^0.23.0",
+    "obuild": "^0.4.39",
+    "oxlint": "^1.81.0",
+    "oxlint-tsgolint": "^7.0.2001",
     "prettier": "^3.8.1",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   }
 }
